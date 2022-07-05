@@ -12,6 +12,10 @@
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
+  --main-white:#f0f0f0;
+  --main-red:#be3144;
+  --main-blue:#45567d;
+  --main-gray:#303841;
 }
 
 img {
@@ -73,6 +77,11 @@ a {
   font-size: 60px;
 }
 
+.footer__main p {
+    font-size: 18px;
+    font-style: italic;
+}
+
 #welcome-section p {
   color: var(--main-red);
   font-size: 30px;
@@ -102,13 +111,13 @@ a {
   width: calc(100% - 2rem);
 }
 
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .bg-grid{
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
   .bg-grid{
     grid-template-columns: repeat(3, 1fr);
   }
@@ -208,10 +217,6 @@ footer {
   font-size: 60px;
 }
 
-.footer__main p {
-  font-size: 18px;
-  font-style: italic;
-}
 
 .footer__bottom {
   width: 100%;
